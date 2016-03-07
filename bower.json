@@ -1,5 +1,5 @@
 {
-"name": "Buzz Marketing Site",
+  "name": "Buzz Marketing Site",
   "version": "1.0.1",
   "dependencies": {
     "font-awesome": "latest",
