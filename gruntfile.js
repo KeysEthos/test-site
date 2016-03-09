@@ -18,20 +18,19 @@ jshint: {
 	   },
            build: {
               files: {
-                // 'public/dist/js/app.min.js': ['public/src/js/*.js', 'public/src/js/**/*.js'],
-		 'public/dist/js/jquery.min.js' :
-			['public/libs/jquery/src/*.js', 'public/libs/jquery/src/**/*.js',
-'public/libs/jquery/src/**/**/*.js']
+             'public/dist/js/app.min.js': ['public/src/js/*.js', 'public/src/js/**/*.js'],
+		
               }
            }
          },
 
 // CSS TASKS ===============================================================
+ 
 	sass: {
            build: {
               files: {
-                 'public/dist/css/style.css': ['public/src/css/**/*.scss', 'public/src/css/*.scss']
-              }
+                 'public/dist/css/style.css': ['public/src/css/style.scss']
+		}
            } 
          },
 	cssmin: {
