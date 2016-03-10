@@ -1,4 +1,60 @@
-.nav {
-  background-color: rgba(0, 0, 0, 0.4); }
+.main_img {
+  max-height: 700px !important; }
+
+.white_background_box {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 110px 0;
+  margin: 53px 50px;
+  border-radius: 25px;
+  max-height: 550px; }
+  .white_background_box .main_bee {
+    max-height: 250px;
+    max-width: 250px;
+    margin: 0 auto;
+    margin-top: 40px; }
+  .white_background_box .main_title {
+    padding-top: 180px;
+    color: #2a3587; }
+  .white_background_box .sub_title {
+    font-style: italic; }
+  .white_background_box .action_button {
+    min-width: 120px; }
+  .white_background_box .button_left {
+    float: right; }
+  .white_background_box .button_right {
+    float: left; }
+
+/* Block one */
+.block_one {
+  background-color: white;
+  z-index: 1;
+  margin-top: 20px; }
+
+.info {
+  margin-right: 50px;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex; }
+  .info .block_one_subtitle {
+    margin-top: -10px;
+    margin-bottom: 10px; }
+  .info .tabs .fa {
+    font-size: 35px;
+    width: 55px;
+    line-height: 35px; }
+  .info .button_list li {
+    margin-bottom: 15px; }
+  .info .sub_block_one_button .left {
+    text-align: right; }
+    .info .sub_block_one_button .left .custom_button_info_left {
+      margin-right: 11px; }
+  .info .sub_block_one_button .right {
+    text-align: left; }
+    .info .sub_block_one_button .right .custom_button_info_right {
+      margin-left: 20px; }
 
 /*# sourceMappingURL=style.css.map */

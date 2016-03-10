@@ -1,3 +1,77 @@
-.nav {
-	background-color:rgba(0,0,0,0.4);
+.main_img {
+	max-height:700px !important;
 }
+.white_background_box{
+	z-index:1;
+	position:relative;
+	text-align:center;
+	background-color:rgba(255,255,255,0.7);
+	padding:110px 0;
+	margin:53px 50px;
+	border-radius:25px;
+	max-height:550px;
+	.main_bee {
+		max-height:250px;
+        	max-width:250px;
+		margin:0 auto;
+		margin-top:40px;
+	}
+	.main_title {
+		padding-top:180px;
+		color:#2a3587;
+	}
+	.sub_title {
+		font-style:italic;
+	}
+	.action_button {
+		min-width:120px;
+	}
+	.button_left {
+		float:right;
+	}
+	.button_right {
+		float:left;
+	}
+
+}
+/* Block one */
+.block_one {
+	background-color:white;
+	z-index:1;
+	margin-top:20px;
+}
+.info {
+	margin-right:50px;
+	text-align:center;
+	justify-content: center;
+	flex-direction: column;
+	display: flex;
+	.block_one_subtitle{
+		margin-top:-10px;
+		margin-bottom:10px;
+	}
+	.tabs .fa {
+		font-size:35px;
+		width:55px;
+		line-height:35px;
+	}
+	.button_list li {
+		margin-bottom:15px;
+	}
+	.sub_block_one_button {
+	.left {
+                text-align:right;
+		.custom_button_info_left{
+			margin-right:11px;
+		}
+		
+        }
+        .right {
+                text-align:left;
+		.custom_button_info_right {
+			margin-left:20px;
+		}
+        }
+	}
+}
+
