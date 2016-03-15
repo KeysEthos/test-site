@@ -12,8 +12,12 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
         .when('/signUp', {
            templateUrl: 'views/signUp.html',
            controller: 'signUpController'
-	 });
+	 })
 
+	.otherwise({
+	  redirectTo: '/'
+	});
+		
     $locationProvider.html5Mode(true);
 
 }]);
