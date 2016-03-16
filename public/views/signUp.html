@@ -1,7 +1,7 @@
 <div class="columns">
   <div class="column is-offset-2">
 <div ng-controller="signUpController">
-  <form name="form" class="css-form" novalidate>
+  <form name="form" class="css-form">
     First Name:
     <input type="text" ng-model="user.name.first" name="uName" required="" />
     <br />
@@ -48,7 +48,6 @@
     <input type="submit" ng-click="update(signUp)" value="Save" />
   </form>
   <pre>user = {{user | json}}</pre>
-  <pre>master = {{master | json}}</pre>
 </div>
 </div>
 </div>
